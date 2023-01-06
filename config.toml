@@ -1,34 +1,45 @@
-base_url = "https://not-matthias.github.io/apollo/"
-title = "not-matthias"
-build_search_index = true
-generate_feed = true
+# Theme
+theme = "apollo"
+
+# The URL the site will be built for
+base_url = "https://blog.jglass.me"
+
+# Set the title
+title = "Jordan Glass' Blog"
+
+# Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+# Generate RSS feeds
+generate_feed = true
+
+# Minify HTML
 minify_html = true
 
 [markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
 highlight_theme = "ayu-dark"
 
 [extra]
-toc = true
+# Put all your custom variables here
 use_cdn = false
-favicon = "/icon/favicon.png"
-theme = "auto"      
-
-menu = [
-    { name = "/posts", url = "/posts", weight = 1 },
-    { name = "/projects", url = "/projects", weight = 2 },
-    { name = "/about", url = "/about", weight = 3 },
-]
+theme = "auto"
 
 socials = [
-    { name = "twitter", url = "https://twitter.com/not_matthias", icon = "twitter" },
-    { name = "github", url = "https://github.com/not-matthias/", icon = "github" },
+    {name = "github", url = "https://github.com/Jordan-Glass/", icon = "github"},
+    {name = "mastodon", url = "https://fosstodon.org/@tvAyr3ovS6gWEu", icon = "mastodon"},
+    {name = "linkedin", url = "https://linkedin.com", icon = "linkedin"},
+    {name = "rss", url = "https://blog.jglass.me/atom.xml", icon = "rss"},
 ]
 
-custom_css = []
 
-[extra.analytics]
-enabled = true
-goatcounter_user = "your_user"
-goatcounter_host = "example.com"    # default= goatcounter.com
+menu = [
+    { name = "/posts", url= "/posts", weight= 1 },
+    { name= "/projects", url= "/projects", weight= 2 },
+    { name= "/about", url= "/about", weight= 3 },
+]
