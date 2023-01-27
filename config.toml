@@ -34,7 +34,7 @@ socials = [
     {name = "github", url = "https://github.com/Jordan-Glass/", icon = "github"},
     {name = "mastodon", url = "https://fosstodon.org/@tvAyr3ovS6gWEu", icon = "mastodon"},
     {name = "linkedin", url = "https://www.linkedin.com/in/jordan-g-b26288261/", icon = "linkedin"},
-    {name = "rss", url = "https://blog.jglass.me/atom.xml", icon = "rss"},
+    {name = "rss", url = "atom.xml", icon = "rss"},
 ]
 
 
