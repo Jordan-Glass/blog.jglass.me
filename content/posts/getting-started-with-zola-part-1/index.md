@@ -193,8 +193,10 @@ Although I like the Apollo theme the best, there were a few aspects of it I want
 You can also override only part of a file, as detailed [here](https://www.getzola.org/documentation/themes/extending-a-theme/#overriding-a-block).
 
 1. Firstly, I extended the `404.html` template to remove the `:(` face from the "Page not found" message.
-2. Next, I extended the `macros.html` template to change how dates are formatted, as well as add an updated tag and date if a post was updated, and change how drafts are tagged from `DRAFT` to `(Draft)`. See information on date-time codes [here](https://help.gnome.org/users/gthumb/stable/gthumb-date-formats.html.en), and the templates I extended in [my GitHub repo](<https://github.com/Jordan-Glass/blog.jglass.me/tree/main/templates).
+2. Next, I extended the `macros.html` template to change how dates are formatted, as well as add an updated tag and date if a post was updated, and change how drafts are tagged from `DRAFT` to `(Draft)`. See information on date-time codes [here](https://help.gnome.org/users/gthumb/stable/gthumb-date-formats.html.en).
 3. Finally, I extended `nav.html` to add the `rel="me"` attribute to Mastodon social links, with some help formatting from [here](https://kb.novaordis.com/index.php/Helm_Template_If/Else). This enables the link to this blog to appear as verified on the platform.
+
+You can see these three templates in the `templates` folder in [my GitHub repo](https://github.com/Jordan-Glass/blog.jglass.me/tree/main/templates).
 
 # Pushing changes
 
