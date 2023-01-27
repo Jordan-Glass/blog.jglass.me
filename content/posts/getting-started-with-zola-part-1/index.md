@@ -151,7 +151,7 @@ While you're here, in the `[extra]` section, add definitions for `socials` and `
 
 *You can see how the `menu` and `socials` lists are formatted, and check the rest of my site's configuration, on [my GitHub repo](https://github.com/Jordan-Glass/blog.jglass.me/blob/main/config.toml).*
 
-I also added some more configuration parameters - including defining my site's `title` and enabling Atom feed generation by setting `generate_feed` to `true`. With a feed available, readers can subscribe to my blog and have my blog posts delivered to their feed reader without requiring them to visit my blog manually, or me to set up an email newsletter.
+I also added some more configuration parameters - including defining my site's `title` and enabling Atom feed generation by setting `generate_feed` to `true`. With a feed available, readers can subscribe to my blog and have my blog posts delivered to their feed reader without needing them to remember to check my blog, or requiring me to set up an email newsletter.
 
 The feed will be hosted at `blog.example.com/atom.xml`, and you can find a link to mine in the header above alongside links to my GitHub, Mastodon and LinkedIn profiles.
 
