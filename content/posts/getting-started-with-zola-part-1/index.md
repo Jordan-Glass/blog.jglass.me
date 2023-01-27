@@ -34,7 +34,7 @@ Then, after logging out and in again, I installed Zola using
 sudo snap install zola --edge
 ```
 
-*(If you also install using Snap, you might have to omit the `--edge` flag when Zola reaches Version 1 - check the [installation instructions](https://www.getzola.org/documentation/getting-started/installation/) for the right command to use.)*
+*(If you also install using Snap, you might have to omit the `--edge` flag if and when Zola is made available through the Stable channel - check the [installation instructions](https://www.getzola.org/documentation/getting-started/installation/) for the most up-to-date command, or see the [Snap Store page](https://snapcraft.io/zola).)*
 
 In my case it spent a while setting up "security profiles", but sped through the rest of the steps relatively quickly. Back at the command prompt, the `zola` command shows that it's been installed successfully.
 
