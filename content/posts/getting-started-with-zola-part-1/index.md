@@ -2,7 +2,7 @@
 
 title = "Getting Started with Zola, and How I Made This Blog"
 
-date = 2023-01-27T11:47:00Z
+date = 2023-01-27T12:03:00Z
 
 +++
 
@@ -157,7 +157,7 @@ The feed will be hosted at `blog.example.com/atom.xml`, and you can find a link 
 
 # Serving the site
 
-With the configuration, theme and example content in place, the site is ready to be built. The `zola serve` command builds the site and hosts it locally for you to view. Most of the changes you make will prompt Zola to re-build the site to apply them - if it doesn't, use **CTRL + C** in your terminal to stop the server and run `zola serve` to start it again.
+With the configuration, theme and example content in place, the site is ready to be built. The `zola serve` command builds the site and hosts it locally for you to view. Most of the changes you make will prompt Zola to re-build the site to apply them - if it doesn't, use **CTRL + C** in your terminal to stop the server and run `zola serve` to start it again. If you get a "Segmentation Fault" error, I found that rebooting my system cleared it.
 
 *(If you want to include posts you've set as drafts, append the `--drafts` flag so your command is `zola serve --drafts`.)*
 
