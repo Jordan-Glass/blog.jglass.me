@@ -144,7 +144,11 @@ theme = "apollo"
 
 If, like me, you get any errors like `Tried to render cards.html but the template wasn't found`, the theme isn't loading and you need to check if you have this line in your `config.toml` and, if you do, it's before any sections.
 
-While you're here, in the `[extra]` section, add definitions for `socials` and `menu`, which define the social profile and page links that appear in the header of the site. Each entry needs a name and a URL to link to, and socials also needs an icon (which the Apollo theme supplies for you - you just need to define which to use). If you get errors that look like either of these two lines, you need to check that you've defined these lists correctly and that they're under the `[extra]` section marker.
+# Configuration
+
+`config.toml` holds other configuration options too, including the ones Zola prompted me to set when I ran `zola init` earlier. I'll need to change a few of these options before Zola will build a site.
+
+In the `[extra]` section, add definitions for `socials` and `menu`, which define the social profile and page links that appear in the header of the site. Each entry needs a name and a URL to link to, and socials also needs an icon (which the Apollo theme supplies for you - you just need to define which to use). If you get errors that look like either of these two lines, you need to check that you've defined these lists correctly and that they're under the `[extra]` section marker.
 
 * "Variable `config.extra.socials` not found in context while rendering 'partials/nav.html'"
 * "Variable `config.extra.menu` not found in context while rendering 'partials/nav.html'"
