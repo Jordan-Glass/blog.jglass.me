@@ -1,14 +1,14 @@
 +++
 
-title = "Getting Started with Zola, and How I Made This Blog"
+title = "Getting Started with Zola: How I Made This Blog"
 
-date = 2023-01-27T12:03:00Z
+date = 2023-01-28T12:11:00Z
 
 +++
 
-Zola is a Static Site Generator (SSG) that converts text you write in Markdown documents into a website that can be served on the Internet. Being a static site, it's simpler and doesn't require a database behind it to serve files from - and, in using Markdown, text is formatted in the same way as note-taking apps such as Notion and Obsidian, meaning you don't need to learn HTML syntax to start writing.
+Zola is a Static Site Generator (SSG) that converts text you write in Markdown documents into a website that can be served on the Internet. Being a static site, it's simple and doesn't require a database behind it to serve files from - and, in using Markdown, text is formatted in the same way as note-taking apps such as Notion and Obsidian, meaning you don't need to learn HTML syntax to start writing.
 
-*In theory* that's simple, but figuring out how to make Zola build a nice-looking, themed site from those Markdown files could take a little more understanding. You might also want to use Git to track the changes you make, and publish the site automatically using a platform like GitHub or Cloudflare Pages.
+*In theory* that's simple, but figuring out how to make Zola build a nice-looking, themed site from those Markdown files takes a little more understanding. You might also want to use Git to track the changes you make, and publish the site automatically using a platform like GitHub or Cloudflare Pages.
 
 In this post I'll share how I made this blog, from installing Zola, to adding a theme, and building a site you can see in your browser - as well as learning the basics of Git in the process.
 
@@ -20,7 +20,7 @@ In this post I'll share how I made this blog, from installing Zola, to adding a 
 
 # Installing Zola
 
-How you install Zola depends on where you want to install it - there are [lots of different options](https://www.getzola.org/documentation/getting-started/installation/) for Linux distributions as well as Windows, macOS and Docker. There's no specific version for Ubuntu - or, therefore, Pop!\_OS - so I chose to install Zola as a Snap package. The Snap Store provides [nice, simple instructions](https://snapcraft.io/zola) for installing it on all the key distributions.
+How you install Zola depends on where you want to install it - there are [lots of different options](https://www.getzola.org/documentation/getting-started/installation/) for Linux distributions as well as Windows, macOS and Docker. There's no specific version for Ubuntu - or, therefore, Pop!\_OS - so I chose to install Zola as a Snap package. The Snap Store provides [nice, simple instructions](https://snapcraft.io/zola) for installing it on all the major distributions.
 
 I updated my system using the Pop!\_Shop and rebooted, then installed Snap using
 
@@ -36,7 +36,7 @@ sudo snap install zola --edge
 
 *(If you also install using Snap, you might have to omit the `--edge` flag if and when Zola is made available through the Stable channel - check the [installation instructions](https://www.getzola.org/documentation/getting-started/installation/) for the most up-to-date command, or see the [Snap Store page](https://snapcraft.io/zola).)*
 
-In my case it spent a while setting up "security profiles", but sped through the rest of the steps relatively quickly. Back at the command prompt, the `zola` command shows that it's been installed successfully.
+In my case it spent a while setting up "security profiles", but sped through the rest of the steps relatively quickly. Back at the command prompt, the `zola` command shows that it's been installed successfully, listing the commands it supports.
 
 ```
 zola 0.15.3
@@ -112,7 +112,7 @@ Each of them performs a different function.
 * `saas` is for CSS styling of your pages. I'll be using themes, so I can ignore this folder.
 * `static` holds any type of file - such as images or documents - that you want to host on your site. You can link to them from your blog posts.
 * `templates` can be used to automatically generate particular pages in a set, consistent way. Like `sass`, you can ignore this if you're using a theme.
-* `themes` contains the theme to be used to style the blog.
+* `themes` contains the theme to be used to style the blog. You can have more than one stored here - Zola will only use the one you tell it to.
 
 # Adding a theme
 
@@ -142,6 +142,8 @@ Just adding the theme files doesn't mean that Zola will use them - it needs to b
 theme = "apollo"
 ```
 
+The name you specify here is the same as the name of the folder in `themes`.
+
 If, like me, you get any errors like `Tried to render cards.html but the template wasn't found`, the theme isn't loading and you need to check if you have this line in your `config.toml` and, if you do, it's before any sections.
 
 # Configuration
@@ -153,7 +155,7 @@ In the `[extra]` section, add definitions for `socials` and `menu`, which define
 * "Variable `config.extra.socials` not found in context while rendering 'partials/nav.html'"
 * "Variable `config.extra.menu` not found in context while rendering 'partials/nav.html'"
 
-*You can see how the `menu` and `socials` lists are formatted, and check the rest of my site's configuration, on [my GitHub repo](https://github.com/Jordan-Glass/blog.jglass.me/blob/main/config.toml).*
+*You can see how the `menu` and `socials` lists are formatted, and check the rest of my site's configuration, on [my GitHub repo](https://github.com/Jordan-Glass/blog.jglass.me/blob/main/config.toml). You might not need to add them if you're using a different theme.*
 
 I also added some more configuration parameters - including defining my site's `title` and enabling Atom feed generation by setting `generate_feed` to `true`. With a feed available, readers can subscribe to my blog and have my blog posts delivered to their feed reader without needing them to remember to check my blog, or requiring me to set up an email newsletter.
 
@@ -173,7 +175,7 @@ Earlier, I used Git to add the site's theme as a *submodule*. Now, I can use it 
 
 Using information in `man gittutorial` I set my email with `git config --global user.email <myemail>[@]users.noreply.github.com` and name with `git config --global user.name "Jordan Glass"` to ensure my commits are associated with me. Instead of using a personal address, I've used the one provided to me by GitHub, which you can find by checking "Keep my email address private" in your [email preferences](https://github.com/settings/emails).
 
-Git works, broadly, by `add`-ing and `commit`-ting the changes you make to files. The `commit` command makes a record of the changes you make to files, but you need to `add` files before they are included in commits.
+Git works, broadly, by `add`-ing and `commit`-ting the changes you make to files. The `commit` command makes a record of the changes you make to files, but you need to `add` files to include them in commits.
 
 The first time, in the root of the `blog` directory, run `git add .` to add all the files in the blog. The `.` refers to the current directory, and Git will add all the files in all the folders below this one when using this command. Then, use `git commit` to record the changes. It'll open your text editor to ask for some information. The first line is typically a short summary of your changes, no more than fifty characters - optionally, you can add a blank line followed by a longer description below it if you want to add more detail.
 
@@ -184,9 +186,11 @@ After this first time, changes are added in one of two ways:
 * `git add path/to/file` to add the specific file you've changed to your commit, giving you more control over what happens. This allows you to use `git diff --cached` to see a summary of your changes - press enter or space until `END` is highlighted then press `q` to exit - before you commit like before with `git commit`.
 * Add and commit in a single command with `git commit -a`. You can append `--dry-run` to preview what happens without actually carrying it out.
 
-At any point, you can use `git status` to check what's happening. This will list files you've created or modified but not added yet, as well as files you've added but not committed. It also shows you if your local repository is ahead of, or behind, your remote one - see "Pushing changes" below.
+At any point, you can use `git status` to check what's happening. This will list files you've created, deleted or modified but not added yet, as well as files you've added but not committed. It also shows you if your local repository is ahead of, or behind, your remote one - see "Pushing changes" below.
 
-Ideally, you would only change one file between each commit. This way, if you need to revert a change, you only need to revert *one change*, not a whole stack of them! See [this explanation](https://christitus.com/using-github-correctly/#using-github-properly) for why that can be helpful.
+*(You still need to `add` files you've deleted - which means you'll need to run `git add` followed by the path to the file you've removed. You can use `git status` to list any missing files if you forget where they were located.)*
+
+Ideally, you would only change one file between each commit. This way, if you need to revert a change, you only need to revert *one change*, not several of them! See [this explanation](https://christitus.com/using-github-correctly/#using-github-properly) for why that can be helpful.
 
 I didn't do this step until after I'd done the Customisation step below, so to maintain one-change-per-commit and keep a record of my changes, I restored the folder to how it was before and restored the files I'd changed one-by-one, committing after each. You shouldn't have to if you do this step first - just make sure `zola serve` isn't running when you commit, or add `public/` to your `.gitignore` (see mine [here](https://github.com/Jordan-Glass/blog.jglass.me/blob/main/.gitignore)).
 
