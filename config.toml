@@ -5,7 +5,7 @@ theme = "apollo"
 base_url = "https://blog.jglass.me"
 
 # Set the title
-title = "Jordan Glass' Blog"
+title = "Jordan Glass"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
