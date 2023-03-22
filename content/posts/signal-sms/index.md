@@ -1,9 +1,9 @@
 +++
 title = "My Thoughts on Signal Removing SMS Support"
-date = 2023-03-21T22:00:00Z
+date = 2023-03-22T19:44:00Z
 +++
 
-On 23 March, Signal will stop supporting SMS messages on Android. After almost ten years, Signal's greatest asset for introducing the masses to secure messaging will be removed. In this post, I'll discuss why I think SMS support was so important, and why I think removing it is the wrong decision.
+Tomorrow, Signal will stop supporting SMS messages on Android. After almost ten years, Signal's greatest asset for introducing the masses to secure messaging will be removed. In this post, I'll discuss why I think SMS support was so important, and why I think removing it is the wrong decision.
 
 <!-- more -->
 
