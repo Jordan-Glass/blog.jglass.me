@@ -1,9 +1,10 @@
 +++
 title = "My Thoughts on Signal Removing SMS Support"
 date = 2023-03-22T19:44:00Z
+updated = 2023-03-22T21:37:00Z
 +++
 
-Tomorrow, Signal will stop supporting SMS messages on Android. After almost ten years, Signal's greatest asset for introducing the masses to secure messaging will be removed. In this post, I'll discuss why I think SMS support was so important, and why I think removing it is the wrong decision.
+Over the next few days, Signal will stop supporting SMS messages on Android. After almost ten years, Signal's greatest asset for introducing the masses to secure messaging will be removed. In this post, I'll discuss why I think SMS support was so important, and why I think removing it is the wrong decision.
 
 <!-- more -->
 
@@ -116,6 +117,14 @@ What of families that migrated their chats to Signal when WhatsApp [changed thei
 For me, nothing changes. I'll keep using Signal, as will everyone I message using it - just with a bit less convenience than before. But now, that selling point on which many of these millions of users switched in 2021 is gone: Signal can no longer be the one do-it-all app it once was. SMS is by no means perfect, but it was a compromise: a way to meet ordinary users in the middle and ease their transition from SMS to encrypted messaging.
 
 In putting up walls around its service, Signal risks becoming just another app that privacy advocates use to talk to each other. To them - and to Signal - its flagship feature is encryption, to which nothing is changing, but about which the masses don't care. To regular users, in losing SMS support, it is losing its trump card: to them, it becomes just another WhatsApp or Telegram imitator. Stories, stickers, and all. And, given what Signal had managed to do, that's a great shame.
+
+---
+
+Update, 22 March @ 21:37:
+
+* *Since publication, this post was updated to reflect that SMS support will be retired as part of a gradual rollout - the exact dates for which vary "by individual usage" - rather than on the same day for everyone, based on a post [here](https://www.reddit.com/r/signal/comments/113uk8m/comment/j8y1cqb/?context=1) by a Signal developer.*
+* *I vaguely remember the Signal app telling me it would happen on for me 23 March, but there seems to be no official communication on Signal's blog post or support article on what the earliest and latest possible dates could be.*
+* *If you're a Signal user, you might already have lost SMS support, or the change might be yet to happen. Regardless, it's still going ahead, so the points I make in the rest of this post remain unchanged.*
 
 ---
 
