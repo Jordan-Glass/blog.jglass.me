@@ -9,7 +9,7 @@ If you'd like to reach out, you can send a message on [LinkedIn](https://www.lin
 
 A private mention is a post with visibility restricted to only the accounts you mention in the post. You can set the option manually (see the screenshot below), or click "Privately mention @Jordan-Glass" in the menu next to the Follow button on my account. There's a brief explanation in the [Mastodon documentation](https://docs.joinmastodon.org/user/posting/#direct).
 
-<img alt="A screenshot of post privacy options in the post composer on the Mastodon web interface. Mentioned people only is selected, the other options are Public, Unlisted, and Followers Only." async src="mastodon-post-privacy.png" width="337px"></img>
+<img alt="A screenshot of post privacy options in the post composer on the Mastodon web interface. Mentioned people only is selected, the other options are Public, Unlisted, and Followers Only." async src="/mastodon-post-privacy.png" width="337px"></img>
 
 > *Your post should look something like this, but it will omit `@fosstodon.org` if your account is hosted there too.*
 
