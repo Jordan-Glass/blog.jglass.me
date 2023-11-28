@@ -1,0 +1,9 @@
+User-agent: *
+Disallow:
+Allow: /
+
+User-agent: gptbot
+Disallow: /
+Allow: 
+
+Sitemap: {{ get_url(path="sitemap.xml") }}
