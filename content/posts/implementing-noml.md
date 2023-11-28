@@ -1,7 +1,6 @@
 +++
 title = "Implementing NoML in Zola (And Why You Might Want To)"
-date = 1970-01-01T00:00:00Z
-draft  = true
+date = 2023-11-28T11:25:00Z
 +++
 
 AI is big business, and it's largely fuelled by the vast troves of data on the Internet. Much of it was published in an era when harvesting authors' work to train models that may eventually supercede them, if not unimaginable, certainly seemed like a distant future. **That future has now arrived.**
