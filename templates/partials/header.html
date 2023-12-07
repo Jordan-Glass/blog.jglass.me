@@ -13,6 +13,7 @@
 
     {% if page.extra.meta %}
          <!-- the meta data config goes here  -->
+         <!-- EXT: detect if og:type specified in TOML  -->
          {% for data in page.extra.meta %}
              <meta 
                  {% for key, value in data%}
@@ -24,6 +25,9 @@
                      {% endif %}
                      {% if key == "name" and value == "description"%}
                          {% set_global page_has_description = true -%}
+                     {% endif %}
+                     {% if key == "property" and value == "og:type"%}
+                         {% set_global page_has_og_type = true -%}
                      {% endif %}
                      {{ key }}="{{ value }}"
                 {% endfor %}
@@ -67,6 +71,11 @@
          {% elif config.description %}
              <meta name="description" content="{{ config.description }}" />
          {% endif %}
+    {% endif %}
+    
+    <!-- EXT: default to og:type == website if none specified in page TOML --->
+    {% if not page_has_og_type %}
+        <meta name="og:type" content="website" />
     {% endif %}
 
     {# Favicon #}
