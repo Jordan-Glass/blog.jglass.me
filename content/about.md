@@ -1,6 +1,15 @@
 +++
 title = "About"
 path = "about"
+
+[extra]
+meta = [
+    {property = "og:title", content = "About Me & This Blog"},
+    {property = "og:description", content = "Who I am, and what you'll find on this blog"},
+    {property = "og:url", content = "https://blog.jglass.me/about/"},
+    {property = "og:type", content = "website"},
+    {property = "og:image", content = "cover.png"},
+]
 +++
 
 # About Me
