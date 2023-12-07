@@ -13,7 +13,7 @@
 
     {% if page.extra.meta %}
          <!-- the meta data config goes here  -->
-         <!-- EXT: detect if og:type specified in TOML  -->
+         <!-- EXT: detect if og:type and og:image specified in TOML  -->
          {% for data in page.extra.meta %}
              <meta 
                  {% for key, value in data%}
@@ -28,6 +28,9 @@
                      {% endif %}
                      {% if key == "property" and value == "og:type"%}
                          {% set_global page_has_og_type = true -%}
+                     {% endif %}
+                     {% if key == "property" and value == "og:image"%}
+                         {% set_global page_has_og_image = true -%}
                      {% endif %}
                      {{ key }}="{{ value }}"
                 {% endfor %}
@@ -76,6 +79,11 @@
     <!-- EXT: default to og:type == website if none specified in page TOML --->
     {% if not page_has_og_type %}
         <meta name="og:type" content="website" />
+    {% endif %}
+    
+    <!-- EXT: default to og:image == cover.png if none specified in page TOML --->
+    {% if not page_has_og_type %}
+        <meta name="og:image" content="/cover.png" />
     {% endif %}
 
     {# Favicon #}
