@@ -1,9 +1,14 @@
 +++
-
 title = "Getting Started with Zola: How I Made This Blog"
-
 date = 2023-01-28T12:11:00Z
 
+[extra]
+meta = [
+    {property = "og:description", content = "I made this blog without writing a single piece of HTML. Here's how"},
+    {property = "og:url", content = "https://blog.jglass.me/posts/getting-started-with-zola-part-1/"},
+    {property = "og:image", content = "markdown-cover.png"},
+    {property = "og:type", content = "article"},
+]
 +++
 
 Zola is a Static Site Generator (SSG) that converts text you write in Markdown documents into a website that can be served on the Internet. Being a static site, it's simple and doesn't require a database behind it to serve files from - and, in using Markdown, text is formatted in the same way as note-taking apps such as Notion and Obsidian, meaning you don't need to learn HTML syntax to start writing.
