@@ -7,6 +7,9 @@ base_url = "https://blog.jglass.me"
 # Set the title
 title = "Jordan Glass"
 
+# Add fallback description
+description = "A blog on Cyber Security, Urban Design & Technology"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
