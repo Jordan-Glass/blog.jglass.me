@@ -1,45 +1,63 @@
 {% macro list_posts(pages) %}
-    <ul>
+<ul>
     {%- for page in pages %}
+    <section class="list-item">
+        <div class="post-header">
+
+            <div>
+                <h1 class="title">
+                    <a href={{ page.permalink }}>{{page.title}}</a>
+
+                    <!-- EXT: Added updated label --->
+                    {%- if page.updated %}
+                        <span class="draft-label">(Updated)</span> 
+                    {% endif -%}
+                    
+                    <!-- EXT: Change "DRAFT" to "(Draft)" --->
+                    {% if page.draft %}
+                    <span class="draft-label">(Draft)</span>
+                    {% endif %}
+                </h1>
+                
+                <!-- EXT: Moved and reformatted post date --->
+                <time>{{ page.date | date(format="%d %B %Y") }}</time>
+
+                <div class="meta">
+                    <div class="description">
+                        {% if page.description %}
+                            {{ page.description }}
+                        {% elif page.summary %}
+                            {{ page.summary | safe }}&hellip;
+                        {% else %}
+                            {% set hide_read_more = true %}
+                        {% endif %}
+                    </div>
+
+                    <!-- EXT: Change arrow to ellipsis in Read more --->
+                    {% if not hide_read_more %}
+                    <a class="readmore" href={{ page.permalink }}>Read more...</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% endfor -%}
+</ul>
+{% endmacro list_posts %}
+
+{% macro list_terms(terms) %}
+    <ul>
+    {%- for term in terms %}
         <section class="list-item">
             <h1 class="title">
-                <a href={{ page.permalink }}>{{page.title}}</a>
+                <a href={{ term.permalink }}>{{term.name}}</a>
             </h1>
-
-            <div class="meta">
-                <!-- Updated date format --->
-                {%- if page.date %}
-                    <time>{{ page.date | date(format="%d %B %Y") }}</time>
-                {% endif -%}
-                <!-- Added updated label --->
-                {%- if page.updated %}
-                    <span class="draft-label">(Updated)</span> 
-                {% endif -%}
-                <!-- Change "DRAFT" to "(Draft)" --->
-                {% if page.draft %}
-                    <span class="draft-label">(Draft)</span> 
-                {% endif %}
-            </div>
-
-            <br />
-            <div class="description">
-                {% if page.description %}
-                    {{ page.description }}
-                {% elif page.summary %}
-                    {{ page.summary | safe }}&hellip;
-                {% else %}
-                    {% set hide_read_more = true %}
-                {% endif %}
-            </div>
-	    <!-- Change arrow to ... in Read more --->
-            {% if not hide_read_more %}
-                <a class="readmore" href={{ page.permalink }}>Read more...</a>
-            {% endif %}
         </section>
 
     {% endfor -%}
     </ul>
-{% endmacro list_posts %}
+{% endmacro list_terms %}
 
 {% macro tags(page, short=false) %}
     {%- if page.taxonomies and page.taxonomies.tags %}
@@ -73,18 +91,19 @@
             {{ post_macros::page_header(title=page.title) }}
 
                 <div class="meta">
-                    <!-- Change date format --->
+                    <!-- EXT: Change date format --->
                     {% if page.date %}
                         Posted on <time>{{ page.date | date(format="%d %B %Y") }}</time>
                     {% endif %}
                     
-                    <!-- Add updated date --->
+                    <!-- EXT: Add updated date --->
                     {% if page.updated %}
                         and updated on <time>{{ page.updated | date(format="%d %B %Y") }}</time>
                     {% endif %}
 
+                    <!-- EXT: Change draft label --->
                     {% if page.draft %}
-                        <span class="draft-label">(Draft)</span> 
+                        <span class="draft-label">(Draft)</span>
                     {% endif %}
                 </div>
         </div>
@@ -154,9 +173,9 @@
     {%- for page in pages %}
         <div class="card">
             {% if page.extra.local_image %}
-                <img class="card-image" alt={{ page.extra.local_image }} src="{{ get_url(path=page.extra.local_image) }}">
+                <img class="card-image" alt={{ page.extra.local_image }} src="{{ get_url(path=page.extra.local_image) }}" />
             {% elif page.extra.remote_image %}
-                <img class="card-image" alt={{ page.extra.remote_image }} src="{{ page.extra.remote_image }}">
+                <img class="card-image" alt={{ page.extra.remote_image }} src="{{ page.extra.remote_image }}" />
             {% else %}
                 <div class="card-image-placeholder"></div>
             {% endif %}
@@ -175,7 +194,7 @@
                         <time>{{ page.date | date(format="%Y-%m-%d") }}</time>
                     {% endif -%}
                     {% if page.draft %}
-                        <span class="draft-label">DRAFT</span> 
+                        <span class="draft-label">DRAFT</span>
                     {% endif %}
                 </div>
 
