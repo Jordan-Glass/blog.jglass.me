@@ -1,6 +1,15 @@
 +++
 title = "Contact"
 path = "contact"
+
+[extra]
+meta = [
+    {property = "og:title", content = "Contact & Reaching Out"},
+    {property = "og:description", content = "I haven't published my email on this site, but you can still reach out to me on LinkedIn and Mastodon"},
+    {property = "og:url", content = "https://blog.jglass.me/contact/"},
+    {property = "og:type", content = "website"},
+    {property = "og:image", content = "cover.png"},
+]
 +++
 
 I haven't added an email address to this site to protect against spam - I can't use email protection services here as this is a static site.
