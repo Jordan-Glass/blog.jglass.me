@@ -2,6 +2,14 @@
 title = "My Thoughts on Signal Removing SMS Support"
 date = 2023-03-22T19:44:00Z
 updated = 2023-03-22T21:37:00Z
+
+[extra]
+meta = [
+    {property = "og:description", content = "Signal is removing SMS support from its Android app. I think that's a step backwards"},
+    {property = "og:url", content = "https://blog.jglass.me/posts/signal-sms/"},
+    {property = "og:image", content = "signal-cover.png"},
+    {property = "og:type", content = "article"},
+]
 +++
 
 Over the next few days, Signal will stop supporting SMS messages on Android. After almost ten years, Signal's greatest asset for introducing the masses to secure messaging will be removed. In this post, I'll discuss why I think SMS support was so important, and why I think removing it is the wrong decision.
