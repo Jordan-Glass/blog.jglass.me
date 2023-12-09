@@ -2,6 +2,7 @@
 title = "My Thoughts on Signal Removing SMS Support"
 date = 2023-03-22T19:44:00Z
 updated = 2023-03-22T21:37:00Z
+authors = ["Jordan Glass"]
 
 [extra]
 meta = [

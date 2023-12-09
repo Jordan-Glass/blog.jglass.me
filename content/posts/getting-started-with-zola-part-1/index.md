@@ -1,6 +1,7 @@
 +++
 title = "Getting Started with Zola: How I Made This Blog"
 date = 2023-01-28T12:11:00Z
+authors = ["Jordan Glass"]
 
 [extra]
 meta = [
