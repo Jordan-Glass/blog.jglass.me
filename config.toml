@@ -10,6 +10,9 @@ title = "Jordan Glass"
 # Add fallback description
 description = "A blog on Cyber Security, Urban Design & Technology"
 
+# Set default author
+author = "Jordan Glass"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
