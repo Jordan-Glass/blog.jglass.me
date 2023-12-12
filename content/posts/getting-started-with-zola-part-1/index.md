@@ -8,6 +8,7 @@ meta = [
     {property = "og:description", content = "I made this blog without writing a single piece of HTML. Here's how"},
     {property = "og:url", content = "https://blog.jglass.me/posts/getting-started-with-zola-part-1/"},
     {property = "og:image", content = "markdown-cover.png"},
+    {property = "og:image:alt", content = "Comparison of a plain Markdown document on the left, and a formatted webpage on the right, both containing the same text. The screenshots are separated by a thick, slanted red stripe."},
     {property = "og:type", content = "article"},
 ]
 +++

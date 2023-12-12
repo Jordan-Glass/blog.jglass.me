@@ -9,6 +9,7 @@ meta = [
     {property = "og:description", content = "Signal is removing SMS support from its Android app. I think that's a step backwards"},
     {property = "og:url", content = "https://blog.jglass.me/posts/signal-sms/"},
     {property = "og:image", content = "signal-cover.png"},
+    {property = "og:image:alt", content = "Settings in the Signal Android app. The text CHATS and the back button are visible at the top, and options REMOVE SMS MESSAGES and EXPORT SMS MESSAGES AGAIN are visible underneath."},
     {property = "og:type", content = "article"},
 ]
 +++
