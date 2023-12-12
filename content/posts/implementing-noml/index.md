@@ -10,6 +10,7 @@ meta = [
     {property = "og:image", content = "meta-cover.png"},
     {property = "og:image:alt", content = "A Zola template containing an opening head tag, some meta tags, and Tera if and for logic handling page metadata"},
     {property = "og:type", content = "article"},
+    {property = "og:locale", content = "en_GB"},
 ]
 +++
 

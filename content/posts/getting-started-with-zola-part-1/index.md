@@ -10,6 +10,7 @@ meta = [
     {property = "og:image", content = "markdown-cover.png"},
     {property = "og:image:alt", content = "Comparison of a plain Markdown document on the left, and a formatted webpage on the right, both containing the same text. The screenshots are separated by a thick, slanted red stripe."},
     {property = "og:type", content = "article"},
+    {property = "og:locale", content = "en_GB"},
 ]
 +++
 

@@ -11,6 +11,7 @@ meta = [
     {property = "og:image", content = "signal-cover.png"},
     {property = "og:image:alt", content = "Settings in the Signal Android app. The text CHATS and the back button are visible at the top, and options REMOVE SMS MESSAGES and EXPORT SMS MESSAGES AGAIN are visible underneath."},
     {property = "og:type", content = "article"},
+    {property = "og:locale", content = "en_GB"},
 ]
 +++
 
