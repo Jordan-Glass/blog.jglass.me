@@ -105,6 +105,28 @@
                     {% if page.draft %}
                         <span class="draft-label">(Draft)</span>
                     {% endif %}
+                
+                    <!-- EXT: Add page author under title/dates --->
+                    {%- if page.title not in ["About", "Contact"] %}
+                        <br>
+                        By 
+                        {% if page.authors -%}
+                            {%- if page.authors -%}
+                                {%- for author in page.authors -%}
+                                    {%- if loop.last and not loop.first %}
+                                         and 
+                                    {%- elif not loop.first -%}
+                                        ,
+                                    {%- endif %}
+                                     {{ page.authors[loop.index0] }}
+                                {%- endfor -%}
+                            {%- endif -%}
+                        {%- elif config.author -%}
+                            {{ config.author }}
+                        {%- else -%}
+                            an unknown author
+                        {%- endif -%}
+                    {%- endif -%}
                 </div>
         </div>
 
