@@ -34,7 +34,7 @@ highlight_theme = "ayu-dark"
 [extra]
 # Put all your custom variables here
 use_cdn = false
-theme = "auto"
+theme = "toggle"
 favicon = "/icons/favicon.png"
 
 socials = [
