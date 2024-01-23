@@ -7,7 +7,7 @@ authors = ["Jordan Glass"]
 meta = [
     {property = "og:description", content = "I made this blog without writing a single piece of HTML. Here's how"},
     {property = "og:url", content = "https://blog.jglass.me/posts/getting-started-with-zola-part-1/"},
-    {property = "og:image", content = "markdown-cover.png"},
+    {property = "og:image", content = "images/markdown-cover.png"},
     {property = "og:image:alt", content = "Comparison of a plain Markdown document on the left, and a formatted webpage on the right, both containing the same text. The screenshots are separated by a thick, slanted red stripe."},
     {property = "og:type", content = "article"},
     {property = "og:locale", content = "en_GB"},
@@ -132,7 +132,7 @@ I chose [Apollo](https://www.getzola.org/themes/apollo/) because it combines a v
 
 The recommended way to install the Apollo theme is with Git Submodules - which mean that the theme files exist as normal on my system, but link to the repository I get them from in the Git repo. Here's how it looks in the repository for this site:
 
-<img alt="In the themes folder in this blog's GitHub repository, there is a folder linked to the Apollo theme repository. It reads: apollo @ b0ad81c. The latest commit to the themes folder is titled: Initial commit." async src="submodule.png" width="406px"></img>
+<img alt="In the themes folder in this blog's GitHub repository, there is a folder linked to the Apollo theme repository. It reads: apollo @ b0ad81c. The latest commit to the themes folder is titled: Initial commit." async src="images/submodule.png" width="406px"></img>
 
 Adding the theme as a submodule requires initialising the folder as a Git repository. This can be done by running `git init` in the `Zola\blog` folder. This will give a warning about the branch name being the default, `master` - I changed it to `main` with `git branch -m main`.
 
@@ -254,7 +254,7 @@ When it should've looked like this:
 
 The error caused the link to the Zola documentation below to be formatted incorrectly, so you might want to check your post in a simpler program like Notepad++ to make sure it adheres to the Markdown syntax if you find problems with how it appears on your Zola site.
 
-<img alt="A screenshot of a paragraph in this blog post. A hyperlink that should read: Here's, is broken and instead appears as plaintext within square brackets, with a preceding backslash. The link itself appears after it in standard brackets." async src="link.png" width="985px"></img>
+<img alt="A screenshot of a paragraph in this blog post. A hyperlink that should read: Here's, is broken and instead appears as plaintext within square brackets, with a preceding backslash. The link itself appears after it in standard brackets." async src="images/link.png" width="985px"></img>
 
 # Hosting it on the Internet
 
