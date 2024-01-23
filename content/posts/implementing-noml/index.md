@@ -174,4 +174,4 @@ Will it work? For now: no. In the future? That depends on whether the AI industr
 
 ---
 
-* [View post source](https://github.com/Jordan-Glass/blog.jglass.me/tree/main/content/posts/implementing-noml.md)
+* [View post source](https://github.com/Jordan-Glass/blog.jglass.me/tree/main/content/posts/implementing-noml/index.md)
