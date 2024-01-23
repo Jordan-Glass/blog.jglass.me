@@ -7,7 +7,7 @@ authors = ["Jordan Glass"]
 meta = [
     {property = "og:description", content = "AI companies are training their models with your work. Should you stop them?"},
     {property = "og:url", content = "https://blog.jglass.me/posts/implementing-noml/"},
-    {property = "og:image", content = "meta-cover.png"},
+    {property = "og:image", content = "images/meta-cover.png"},
     {property = "og:image:alt", content = "A Zola template containing an opening head tag, some meta tags, and Tera if and for logic handling page metadata"},
     {property = "og:type", content = "article"},
     {property = "og:locale", content = "en_GB"},
