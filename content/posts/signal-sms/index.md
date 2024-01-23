@@ -8,7 +8,7 @@ authors = ["Jordan Glass"]
 meta = [
     {property = "og:description", content = "Signal is removing SMS support from its Android app. I think that's a step backwards"},
     {property = "og:url", content = "https://blog.jglass.me/posts/signal-sms/"},
-    {property = "og:image", content = "signal-cover.png"},
+    {property = "og:image", content = "images/signal-cover.png"},
     {property = "og:image:alt", content = "Settings in the Signal Android app. The text CHATS and the back button are visible at the top, and options REMOVE SMS MESSAGES and EXPORT SMS MESSAGES AGAIN are visible underneath."},
     {property = "og:type", content = "article"},
     {property = "og:locale", content = "en_GB"},
@@ -49,7 +49,7 @@ Currently, SMS messages are denoted only by an open padlock icon next to the tim
 
 I think improving this communication could help reduce some of the confusion that users have been experiencing. So, shortly after the removal was announced, I spent a few minutes in PowerPoint putting together a simple concept of what more robust communication of the differences between the two might look like.
 
-<img alt="Three conversations. One has a red-coloured warning reading SMS ONLY; the second has a blue-coloured message reading SIGNAL CONVERSATION; the third has an orange-coloured warning that the contact uses Signal, but the user has chosen to send this message insecurely." async src="ui-concept.png" width="4420px"></img>
+<img alt="Three conversations. One has a red-coloured warning reading SMS ONLY; the second has a blue-coloured message reading SIGNAL CONVERSATION; the third has an orange-coloured warning that the contact uses Signal, but the user has chosen to send this message insecurely." async src="images/ui-concept.png" width="4420px"></img>
 
 * Only the blue message denoting that you're using the Signal protocol can be dismissed - the two warnings would be permanently visible in any conversations that need them.
 * Each warning has a "Learn More" link to offer users more explanation than can fit in such a small space.
