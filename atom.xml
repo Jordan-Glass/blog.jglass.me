@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Jordan Glass</title>
+    <subtitle>A blog on Cyber Security, Urban Design &amp; Technology</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://blog.jglass.me/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://blog.jglass.me"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-01-26T14:31:00+00:00</updated>
+    <id>https://blog.jglass.me/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Implementing Media Previews with Open Graph Tags in Zola</title>
+        <published>2024-01-26T14:31:00+00:00</published>
+        <updated>2024-01-26T14:31:00+00:00</updated>
+        
+        <author>
+          <name>
+            Jordan Glass
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://blog.jglass.me/posts/implementing-ogp/"/>
+        <id>https://blog.jglass.me/posts/implementing-ogp/</id>
+        
+        <summary type="html">&lt;p&gt;The &lt;a href=&quot;https:&#x2F;&#x2F;ogp.me&#x2F;&quot;&gt;Open Graph Protocol&lt;&#x2F;a&gt;, or OGP, is a series of &lt;code&gt;&amp;lt;meta&amp;gt;&lt;&#x2F;code&gt; tags designed to provide metadata about content hosted online, including articles, photos, and videos. It&#x27;s created by Facebook, which would normally be a big red flag for me - but since it&#x27;s an open standard, other sites have embraced it too, including Microsoft&#x27;s LinkedIn and the decentralised Mastodon.&lt;&#x2F;p&gt;
+&lt;p&gt;Platforms use OGP data to display rich information alongside webpages their users link to, including photos, bespoke headlines that differ from the page&#x27;s actual title, and descriptions to elaborate on both of them.&lt;&#x2F;p&gt;
+&lt;p&gt;Four tags are required as a baseline: </summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Implementing NoML in Zola (And Why You Might Want To)</title>
+        <published>2023-11-28T11:25:00+00:00</published>
+        <updated>2023-11-28T11:25:00+00:00</updated>
+        
+        <author>
+          <name>
+            Jordan Glass
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://blog.jglass.me/posts/implementing-noml/"/>
+        <id>https://blog.jglass.me/posts/implementing-noml/</id>
+        
+        <summary type="html">&lt;p&gt;AI is big business, and it&#x27;s largely fuelled by the vast troves of data on the Internet. Much of it was published in an era when harvesting authors&#x27; work to train models that may eventually supercede them, if not unimaginable, certainly seemed like a distant future. &lt;strong&gt;That future has now arrived.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Recently, I came across &lt;a href=&quot;https:&#x2F;&#x2F;blog.mojeek.com&#x2F;2023&#x2F;10&#x2F;noml-proposal-and-open-letter.html&quot;&gt;a proposal&lt;&#x2F;a&gt; by the independent search company Mojeek for new ways for website owners to control how AI companies crawl data to train their models with. It&#x27;s not of much use to me - all my posts are available on GitHub, free of any restrictions I place on them here - but I was intrigued to explore how I could implement it given I don&#x27;t write any of the HTML for this site myself.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>My Thoughts on Signal Removing SMS Support</title>
+        <published>2023-03-22T19:44:00+00:00</published>
+        <updated>2023-03-22T21:37:00+00:00</updated>
+        
+        <author>
+          <name>
+            Jordan Glass
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://blog.jglass.me/posts/signal-sms/"/>
+        <id>https://blog.jglass.me/posts/signal-sms/</id>
+        
+        <summary type="html">&lt;p&gt;Over the next few days, Signal will stop supporting SMS messages on Android. After almost ten years, Signal&#x27;s greatest asset for introducing the masses to secure messaging will be removed. In this post, I&#x27;ll discuss why I think SMS support was so important, and why I think removing it is the wrong decision.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Getting Started with Zola: How I Made This Blog</title>
+        <published>2023-01-28T12:11:00+00:00</published>
+        <updated>2023-01-28T12:11:00+00:00</updated>
+        
+        <author>
+          <name>
+            Jordan Glass
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://blog.jglass.me/posts/getting-started-with-zola-part-1/"/>
+        <id>https://blog.jglass.me/posts/getting-started-with-zola-part-1/</id>
+        
+        <summary type="html">&lt;p&gt;Zola is a Static Site Generator (SSG) that converts text you write in Markdown documents into a website that can be served on the Internet. Being a static site, it&#x27;s simple and doesn&#x27;t require a database behind it to serve files from - and, in using Markdown, text is formatted in the same way as note-taking apps such as Notion and Obsidian, meaning you don&#x27;t need to learn HTML syntax to start writing.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;In theory&lt;&#x2F;em&gt; that&#x27;s simple, but figuring out how to make Zola build a nice-looking, themed site from those Markdown files takes a little more understanding. You might also want to use Git to track the changes you make, and publish the site automatically using a platform like GitHub or Cloudflare Pages.&lt;&#x2F;p&gt;
+&lt;p&gt;In this post I&#x27;ll share how I made this blog, from installing Zola, to adding a theme, and building a site you can see in your browser - as well as learning the basics of Git in the process.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>
