@@ -1,6 +1,6 @@
 +++
 title = "Implementing Media Previews with Open Graph Tags in Zola"
-date = 2024-01-23T20:00:00Z
+date = 2024-01-26T14:31:00Z
 authors = ["Jordan Glass"]
 
 [extra]
