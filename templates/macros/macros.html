@@ -8,18 +8,18 @@
                 <h1 class="title">
                     <a href={{ page.permalink }}>{{page.title}}</a>
 
-                    <!-- EXT: Added updated label --->
+                    {# EXT: Added updated label #}
                     {%- if page.updated %}
                         <span class="draft-label">(Updated)</span> 
                     {% endif -%}
                     
-                    <!-- EXT: Change "DRAFT" to "(Draft)" --->
+                    {# EXT: Change "DRAFT" to "(Draft)" #}
                     {% if page.draft %}
                     <span class="draft-label">(Draft)</span>
                     {% endif %}
                 </h1>
                 
-                <!-- EXT: Moved and reformatted post date --->
+                {# EXT: Moved and reformatted post date #}
                 <time>{{ page.date | date(format="%d %B %Y") }}</time>
 
                 <div class="meta">
@@ -33,7 +33,7 @@
                         {% endif %}
                     </div>
 
-                    <!-- EXT: Change arrow to ellipsis in Read more --->
+                    {# EXT: Change arrow to ellipsis in Read more #}
                     {% if not hide_read_more %}
                     <a class="readmore" href={{ page.permalink }}>Read more...</a>
                     {% endif %}
@@ -91,27 +91,27 @@
             {{ post_macros::page_header(title=page.title) }}
 
                 <div class="meta">
-	            <!-- EXT: Change date format and omit if same as updated date --->
+	            {# EXT: Change date format and omit if same as updated date #}
 	            {% if page.date %}
 	                Posted {% if page.updated and page.date | date(format="%d %B %Y") != page.updated | date(format="%d %B %Y") or not page.updated -%} on <time title="{{ page.date }}">{{ page.date | date(format="%d %B %Y") }}</time> {% endif %}
 	            {% endif %}
 	            
-	            <!-- EXT: Add updated date --->
+	            {# EXT: Add updated date #}
 	            {% if page.date and page.updated %}
 	                and updated on <time title="{{ page.updated }}">{{ page.updated | date(format="%d %B %Y") }}</time>
 	            {% endif %}
 	            
-	            <!-- EXT: Add last updated date for content without posted date --->
+	            {# EXT: Add last updated date for content without posted date #}
 	            {% if not page.date and page.updated %}
 	            	Last updated on <time title="{{ page.updated }}">{{ page.updated | date(format="%d %B %Y") }}</time>
             	    {% endif %}
 
-                    <!-- EXT: Change draft label --->
+                    {# EXT: Change draft label #}
                     {% if page.draft %}
                         <span class="draft-label">(Draft)</span>
                     {% endif %}
                 
-                    <!-- EXT: Add page author under title/dates --->
+                    {# EXT: Add page author under title/dates #}
                     {%- if page.title not in ["About", "Contact"] %}
                         <br>
                         By 

@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- EXT: add NoML tag --->
+    {# EXT: add NoML tag #}
     <meta name="robots" content="noml">
     
-    <!-- EXT: add site_name tag --->
+    {# EXT: add site_name tag #}
     <meta name="og:site_name" content="{{ config.title }}">
 
     {% if page.extra.meta %}
          <!-- the meta data config goes here  -->
-         <!-- EXT: detect if og:type and og:image specified in TOML  -->
+         {# EXT: detect if og:type and og:image specified in TOML #}
          {% for data in page.extra.meta %}
              <meta 
                  {% for key, value in data%}
@@ -79,23 +79,23 @@
          {% endif %}
     {% endif %}
     
-    <!-- EXT: default to og:type == website if none specified in page TOML --->
+    {# EXT: default to og:type == website if none specified in page TOML #}
     {% if not page_has_og_type %}
         <meta name="og:type" content="website" />
     {% endif %}
     
-    <!-- EXT: default to og:image == cover.png if none specified in page TOML --->
+    {# EXT: default to og:image == cover.png if none specified in page TOML #}
     {% if not page_has_og_image %}
         <meta name="og:image" content="/cover.png" />
         <meta name="og:image:alt" content="A generic cover image with a dark grey background and red rectangular outline. Inside reads: Jordan Glass, on Cyber Security, Urban Design & Technology" />
     {% endif %}
     
-    <!-- EXT: include og:article:published_time --->
+    {# EXT: include og:article:published_time #}
     {% if page.date and page_type_is_article %}
         <meta name="article:published_time" content="{{ page.date }}" />
     {% endif %}
     
-    <!-- EXT: include og:article:modified_time --->
+    {# EXT: include og:article:modified_time #}
     {% if page.updated and page_type_is_article %}
         <meta name="article:modified_time" content="{{ page.updated }}" />
     {% endif %}

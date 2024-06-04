@@ -4,7 +4,7 @@
 
         <div class="socials">
             {% for social in config.extra.socials %}
-                <!-- EXT: rel="me" to verify Mastodon links --->
+                {# EXT: rel="me" to verify Mastodon links #}
 	        <a {% if social.name == "mastodon" %}rel="me"{% endif %} href="{{ social.url }}" class="social">
 	            <img alt={{ social.name }} src="/social_icons/{{ social.icon }}.svg">
 	        </a>
