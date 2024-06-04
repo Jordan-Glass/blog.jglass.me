@@ -91,15 +91,16 @@
             {{ post_macros::page_header(title=page.title) }}
 
                 <div class="meta">
-                    <!-- EXT: Change date format --->
-                    {% if page.date %}
-                        Posted on <time>{{ page.date | date(format="%d %B %Y") }}</time>
-                    {% endif %}
-                    
-                    <!-- EXT: Add updated date --->
-                    {% if page.updated %}
-                        and updated on <time>{{ page.updated | date(format="%d %B %Y") }}</time>
-                    {% endif %}
+	            <!-- EXT: Change date format and omit if same as updated date --->
+	            {% if page.date %}
+	                Posted {% if page.updated and page.date | date(format="%d %B %Y") != page.updated | date(format="%d %B %Y") or not page.updated -%} on <time>{{ page.date | date(format="%d %B %Y") }}</time> {% endif %}
+	            {% endif %}
+	            
+	            <!-- EXT: Add updated date --->
+	            {% if page.updated %}
+	                and updated on <time>{{ page.updated | date(format="%d %B %Y") }}</time>
+	            {% endif %}
+
 
                     <!-- EXT: Change draft label --->
                     {% if page.draft %}
