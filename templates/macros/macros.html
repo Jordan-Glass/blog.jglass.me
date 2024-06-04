@@ -105,6 +105,11 @@
 	            {% if not page.date and page.updated %}
 	            	Last updated on <time title="{{ page.updated }}">{{ page.updated | date(format="%d %B %Y") }}</time>
             	    {% endif %}
+            	    
+            	    {# EXT: add link to commit history if page has been updated #}
+            	    {% if page.updated %}
+            	        (<a href="{{ config.extra.file_history_base_url }}{{ page.relative_path }}">view history</a>)
+            	    {% endif %}
 
                     {# EXT: Change draft label #}
                     {% if page.draft %}
