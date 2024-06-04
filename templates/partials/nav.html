@@ -25,8 +25,9 @@
 
         {% if config.extra.theme == "toggle" %}
         | <a id="dark-mode-toggle" onclick="toggleTheme()" href="javascript:void(0)">
-            <img src="/feather/sun.svg" id="sun-icon" style="filter: invert(1);" />
-            <img src="/feather/moon.svg" id="moon-icon" />
+            {# EXT: add title attributes to theme switch icons to show tooltips #}
+            <img src="/feather/sun.svg" id="sun-icon" style="filter: invert(1);" title="Switch to light theme"/>
+            <img src="/feather/moon.svg" id="moon-icon" title="Switch to dark theme"/>
         </a>
         <script src={{ get_url(path="js/themetoggle.js" ) }}></script>
         {% endif %}
