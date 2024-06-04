@@ -1,6 +1,7 @@
 +++
 title = "Contact"
 path = "contact"
+updated = 2023-10-24T20:33:00Z
 
 [extra]
 meta = [

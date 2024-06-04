@@ -97,10 +97,14 @@
 	            {% endif %}
 	            
 	            <!-- EXT: Add updated date --->
-	            {% if page.updated %}
+	            {% if page.date and page.updated %}
 	                and updated on <time>{{ page.updated | date(format="%d %B %Y") }}</time>
 	            {% endif %}
-
+	            
+	            <!-- EXT: Add last updated date for content without posted date --->
+	            {% if not page.date and page.updated %}
+	            	Last updated on <time>{{ page.updated | date(format="%d %B %Y") }}</time>
+            	    {% endif %}
 
                     <!-- EXT: Change draft label --->
                     {% if page.draft %}
