@@ -105,9 +105,13 @@
         <link rel="icon" type="image/png" href={{ config.extra.favicon }} />
     {% endif %}
 
+    {# EXT: external fonts code removed #}
+    
     {# Font #}
     <link href={{ get_url(path="fonts.css") }} rel="stylesheet" />
 
+    {# EXT: analytics code removed #}
+    
     {% if config.extra.mathjax | default(value=false) %}
         {% if config.extra.mathjax_dollar_inline_enable | default(value=false) %}
             <script>
