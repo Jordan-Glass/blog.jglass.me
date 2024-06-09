@@ -17,11 +17,12 @@
             <a href={{ menu.url }} style="margin-left: 0.7em">{{ menu.name }}</a>
         {% endfor %}
 
+        {# EXT: to theme switch icons, add title tag (for hover tooltip) & alt text #}
         {% if config.extra.theme == "toggle" %}
         | <a id="dark-mode-toggle" onclick="toggleTheme()" href="javascript:void(0)">
             {# EXT: add title attributes to theme switch icons to show tooltips #}
-            <img src="/feather/sun.svg" id="sun-icon" style="filter: invert(1);" title="Switch to light theme"/>
-            <img src="/feather/moon.svg" id="moon-icon" title="Switch to dark theme"/>
+            <img src="/feather/sun.svg" id="sun-icon" style="filter: invert(1);" title="Switch to light theme" alt="Sun outline icon. Enables the light theme."/>
+            <img src="/feather/moon.svg" id="moon-icon" title="Switch to dark theme" alt="Moon outline icon. Enables the dark theme."/>
         </a>
         <script src={{ get_url(path="js/themetoggle.js" ) }}></script>
         {% endif %}
