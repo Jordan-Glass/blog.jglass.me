@@ -36,7 +36,9 @@ highlight_theme = "ayu-dark"
 use_cdn = false
 theme = "toggle"
 favicon = "/icons/favicon.png"
+git_platform = "GitHub"
 file_history_base_url = "https://github.com/Jordan-Glass/blog.jglass.me/commits/main/content/"
+file_content_base_url = "https://github.com/Jordan-Glass/blog.jglass.me/tree/main/content/"
 
 socials = [
     {name = "github", url = "https://github.com/Jordan-Glass/", icon = "github"},

@@ -137,6 +137,11 @@
                             an unknown author
                         {%- endif -%}
                     {%- endif -%}
+                    
+                    {# EXT: add link to post source #}
+                    <br>
+                    <a href="{{ config.extra.file_content_base_url }}{{ page.relative_path }}">View original file on {{ config.extra.git_platform }}</a>
+                    
                 </div>
         </div>
 
