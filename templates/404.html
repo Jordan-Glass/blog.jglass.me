@@ -2,12 +2,9 @@
 
 {% block main_content %}
     {# EXT: add style tag and line-height attribute to fix line spacing #}
-    <main class="centered-header" style="line-height: 1em;">
-        {# EXT: remove face #}
+    <main class="centered-header" style="line-height: .8em;">
+        {# EXT: remove face and add link to homepage #}
         {{ post_macros::page_header(title="404")}}
-        <span>Page not found</span>
-        {# EXT: add link to homepage #}
-        <br><br>
-        <span>Try the <a href={{ config.base_url }}>homepage</a>?</span>
+        <span><font size="10">Page not found, try the <a href={{ config.base_url }}>homepage</a> instead?</font></span>
     </main>
 {% endblock main_content %}
