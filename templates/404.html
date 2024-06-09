@@ -5,5 +5,8 @@
         {# EXT: remove face #}
         {{ post_macros::page_header(title="404")}}
         <span>Page not found</span>
+        {# EXT: add link to homepage #}
+        <br><br>
+        <span>Try the <a href={{ config.base_url }}>homepage</a>?</span>
     </main>
 {% endblock main_content %}
