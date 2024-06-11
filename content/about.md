@@ -36,7 +36,7 @@ My Dissertation project explored Open-Source Intelligence:
 * explored its use in investigating abuses of human rights with a case study;
 * and created a series of ten easy-to-use guidelines, based on over 100 qualitative sources and my own analysis.
 
-Outside my studies, I've gained experience in Linux, Git, and simple shell scripting, and I'm interested in motorsport, open-source alternatives to proprietary software, data privacy, self-hosted services, and photography.
+Outside my studies, I've gained experience in Linux, Git, and simple shell scripting, and I'm interested in motorsport, open-source alternatives to proprietary software, data privacy, self-hosted services, and photography. I've also written a few simple code snippets which you can find [here](/code).
 
 ---
 
@@ -52,4 +52,4 @@ For more information, see the [Contact page](/contact).
 
 On this blog you might find posts on Cyber Security, as well as Urban Design and Technology more widely. You can find links to my accounts across the Internet in the header above, as well as an [Atom feed](/atom.xml) to subscribe to. I've also written a blog post detailing how I created this site, from setting up [Zola](https://getzola.org/) to change control with Git - you can read Part 1 [here](/posts/getting-started-with-zola-part-1/).
 
-You can also find a link to this blog's GitHub repository on the [Code page](/code) linked in the header above.
+You can also find a link to this blog's GitHub repository on the [Code page](/code) mentioned above.
