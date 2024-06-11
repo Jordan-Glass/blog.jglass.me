@@ -145,9 +145,11 @@
                 </div>
         </div>
 
+        {# EXT: add extra line break #}
         {% if page.extra.tldr %}
             <div class="tldr">
-                <strong>tl;dr:</strong>
+                <br>
+                <strong>In summary:</strong>
                 {{ page.extra.tldr }}
             </div>
         {% endif %}
