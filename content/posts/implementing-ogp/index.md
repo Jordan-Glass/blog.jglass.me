@@ -17,8 +17,8 @@ meta = [
 The [Open Graph Protocol](https://ogp.me/), or OGP, is a series of `<meta>` tags designed to provide metadata about content hosted online, including articles, photos, and videos. It's created by Facebook, which would normally be a big red flag for me - but since it's an open standard, other sites have embraced it too, including Microsoft's LinkedIn and the decentralised Mastodon.
 
 Platforms use OGP data to display rich information alongside webpages their users link to, including photos, bespoke headlines that differ from the page's actual title, and descriptions to elaborate on both of them.
-
-Four tags are required as a baseline: <!-- more -->
+<!-- more -->
+Four tags are required as a baseline:
 * `og:title`, to define the title displayed in social feeds;
 * `og:type`, such as `website` or `article`;
 * `og:image`, to represent the content visually; and
