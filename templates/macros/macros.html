@@ -26,8 +26,9 @@
                     <div class="description">
                         {% if page.description %}
                             {{ page.description }}
+                        {# EXT: remove ellipsis #}
                         {% elif page.summary %}
-                            {{ page.summary | safe }}&hellip;
+                            {{ page.summary | safe }}
                         {% else %}
                             {% set hide_read_more = true %}
                         {% endif %}
