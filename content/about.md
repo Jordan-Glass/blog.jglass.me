@@ -53,7 +53,7 @@ I'm currently revisiting core Cyber concepts, pursuing a professional certificat
 
 Looking ahead to later this year, **I'm looking to work somewhere supportive, with opportunities to learn practical, hands-on skills**. My preference is based in-person or hybrid within a commutable distance of Ipswich, or remotely, but please still reach out if you're interested but based a little further afield.
 
-Although it might take me a while to feel at home, and I am no expert at this point in my career, I believe I will be committed, empathic, punctual, and methodical. Written communication and attention to detail are two of my strengths, and I'd value opportunities to make a positive impact, such as by safeguarding data privacy, and contribute to community projects - I already contribute to [OpenStreetMap](https://www.openstreetmap.org/).
+Although it might take me a while to feel at home, and I am no expert at this point in my career, I believe I will be committed, empathic, punctual, and methodical. Written communication and attention to detail are two of my strengths. I'd value opportunities to make a positive impact, such as by safeguarding data privacy, as well as contribute to community projects - I already contribute to [OpenStreetMap](https://www.openstreetmap.org/).
 
 # Contact
 
