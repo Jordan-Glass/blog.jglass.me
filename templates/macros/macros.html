@@ -139,6 +139,10 @@
                         {%- endif -%}
                     {%- endif -%}
                     
+                    {# EXT: add reading time #}
+                    <br>
+                    Reading time: {{ page.reading_time }} minutes
+                    
                     {# EXT: add link to post source #}
                     <br>
                     <a href="{{ config.extra.file_content_base_url }}{{ page.relative_path }}">View original file on {{ config.extra.git_platform }}</a>
