@@ -94,17 +94,17 @@
                 <div class="meta">
 	            {# EXT: Change date format and omit if same as updated date #}
 	            {% if page.date %}
-	                Posted {% if page.updated and page.date | date(format="%d %B %Y") != page.updated | date(format="%d %B %Y") or not page.updated -%} on <time title="{{ page.date }}">{{ page.date | date(format="%d %B %Y") }}</time> {% endif %}
+	                Posted {% if page.updated and page.date | date(format="%d %B %Y") != page.updated | date(format="%d %B %Y") or not page.updated -%} on: <time title="{{ page.date }}">{{ page.date | date(format="%d %B %Y") }}</time> {% endif %}
 	            {% endif %}
 	            
 	            {# EXT: Add updated date #}
 	            {% if page.date and page.updated %}
-	                and updated on <time title="{{ page.updated }}">{{ page.updated | date(format="%d %B %Y") }}</time>
+	                and updated on: <time title="{{ page.updated }}">{{ page.updated | date(format="%d %B %Y") }}</time>
 	            {% endif %}
 	            
 	            {# EXT: Add last updated date for content without posted date #}
 	            {% if not page.date and page.updated %}
-	            	Last updated on <time title="{{ page.updated }}">{{ page.updated | date(format="%d %B %Y") }}</time>
+	            	Last updated on: <time title="{{ page.updated }}">{{ page.updated | date(format="%d %B %Y") }}</time>
             	    {% endif %}
             	    
             	    {# EXT: add link to commit history if page has been updated #}
@@ -120,7 +120,7 @@
                     {# EXT: Add page author under title/dates #}
                     {%- if page.title not in ["About", "Contact"] %}
                         <br>
-                        By 
+                        Written by: 
                         {% if page.authors -%}
                             {%- if page.authors -%}
                                 {%- for author in page.authors -%}
@@ -145,7 +145,7 @@
                     
                     {# EXT: add link to post source #}
                     <br>
-                    <a href="{{ config.extra.file_content_base_url }}{{ page.relative_path }}">View original file on {{ config.extra.git_platform }}</a>
+                    View original file: <a href="{{ config.extra.file_content_base_url }}{{ page.relative_path }}">{{ config.extra.git_platform }}</a>
                     
                 </div>
         </div>
