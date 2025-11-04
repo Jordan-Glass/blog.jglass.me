@@ -49,8 +49,8 @@ socials = [
 
 
 menu = [
-    { name = "/posts", url = "/posts", weight = 1 },
-    { name = "/privacy", url = "/privacy", weight = 2 },
-    { name = "/contact", url = "/contact", weight = 3 },
-    { name = "/about", url = "/about", weight = 4 },
+    { name = "Posts", url = "/posts", weight = 1 },
+    { name = "Privacy", url = "/privacy", weight = 2 },
+    { name = "Contact", url = "/contact", weight = 3 },
+    { name = "About", url = "/about", weight = 4 },
 ]
