@@ -8,7 +8,7 @@ base_url = "https://blog.jglass.me"
 title = "Jordan Glass"
 
 # Add fallback description
-description = "A blog on Cyber Security, Urban Design & Technology"
+description = "Thoughts on Technology & Urban Design"
 
 # Set default author
 author = "Jordan Glass"
@@ -17,7 +17,7 @@ author = "Jordan Glass"
 compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
+build_search_index = true
 
 # Generate RSS feeds
 generate_feeds = true
@@ -25,21 +25,43 @@ generate_feeds = true
 # Minify HTML
 minify_html = true
 
+# Enable tags
+taxonomies = [{ name = "tags" }]
+
+# Side-wide search functionality
+[search]
+include_title = true
+include_description = true
+include_path = true
+include_content = true
+index_format = "elasticlunr_json"
+
+# Syntax highlighting
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
-highlight_theme = "ayu-dark"
+highlight_theme = "css"
+highlight_themes_css = [
+  { theme = "ayu-dark", filename = "syntax-theme-dark.css" },
+  { theme = "ayu-light", filename = "syntax-theme-light.css" },
+]
 
 [extra]
 # Put all your custom variables here
+toc = true
 use_cdn = false
 theme = "toggle"
 favicon = "/icons/favicon.png"
+fancy_code = true
+dynamic_note = true
 git_platform = "GitHub"
 file_history_base_url = "https://github.com/Jordan-Glass/blog.jglass.me/commits/main/content/"
 file_content_base_url = "https://github.com/Jordan-Glass/blog.jglass.me/tree/main/content/"
+content_license = "CC BY-NC-SA 4.0"
+content_license_url = "https://github.com/Jordan-Glass/blog.jglass.me/blob/main/LICENSE_CC-BY-NC-SA-4.txt"
 
+# External links
+fediverse = true    # author attribution
+fediverse_creator = "@JordanGlass@fosstodon.org"    # e.g. @user@instance
 socials = [
     {name = "github", url = "https://github.com/Jordan-Glass/", icon = "github"},
     {name = "mastodon", url = "https://fosstodon.org/@JordanGlass", icon = "mastodon"},
@@ -47,13 +69,18 @@ socials = [
     {name = "rss", url = "/atom.xml", icon = "rss"},
 ]
 
-
+# Internal links
 menu = [
     { name = "Posts", url = "/posts", weight = 1 },
     { name = "Privacy", url = "/privacy", weight = 2 },
     { name = "Contact", url = "/contact", weight = 3 },
     { name = "About", url = "/about", weight = 4 },
 ]
+
+# Tags page sorting (default name, ascending)
+#[extra.taxonomies]
+#sort_by = "page_count"         # e.g. name, page_count
+#reverse = true
 
 [extra.default_cover]
 enabled = true
