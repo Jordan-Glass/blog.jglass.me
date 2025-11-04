@@ -56,3 +56,13 @@ For more information, see the [Contact page](/contact).
 # About This Blog
 
 You might find posts here on Cyber Security, Urban Design, and Technology more widely. My profiles are linked in the header above, alongside an [Atom feed](/atom.xml) to subscribe to.
+
+## Licensing
+
+From the perspective of the [repository root folder](https://github.com/Jordan-Glass/blog.jglass.me):
+
+- Content in `content/` and `static/`, as well as this `README.md`, is licensed under CC BY-NC-SA 4.0 unless otherwise stated in the post front matter (the header that contains information like the title and publication date) or if a different license text is included in the folder. If the latter applies, that license applies to the content in that folder. A copy of that license is included in this directory.
+- Content in `templates/`, and `config.toml`, is mostly derived from, and intended for use with, Apollo/Shuttle, and therefore licensed under MIT. A copy of that license is included in this directory.
+- Content in `themes/` is licensed according to the respective author(s). These are submodules, so you can follow them to their repositories. Apollo and Shuttle both use MIT, a copy of which is included in the respective directory.
+- Content in `.github/workflows` is derived from [zola-deploy-action](https://github.com/shalzz/zola-deploy-action/) and inherits its MIT license. A copy is included in that directory.
+- `.gitignore` and `.gitmodules` are created automatically by Git and are not licensed.
