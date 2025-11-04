@@ -54,3 +54,8 @@ menu = [
     { name = "Contact", url = "/contact", weight = 3 },
     { name = "About", url = "/about", weight = 4 },
 ]
+
+[extra.default_cover]
+enabled = true
+path = "/cover.png"
+alt = "A dark green background and a hollow mint green rectangle. Inside reads Jordan Glass, Thoughts on Technology and Urban Design."
