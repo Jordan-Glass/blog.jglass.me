@@ -1,5 +1,5 @@
 # Theme
-theme = "apollo"
+theme = "shuttle"
 
 # The URL the site will be built for
 base_url = "https://blog.jglass.me"
