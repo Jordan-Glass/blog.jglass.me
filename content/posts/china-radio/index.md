@@ -3,6 +3,9 @@ title = "The Chinese Radio Station You Can Hear Around The World"
 date = 2024-08-29T20:38:00Z
 authors = ["Jordan Glass"]
 
+[taxonomies]
+tags=["World"]
+
 [extra]
 meta = [
     {property = "og:description", content = "Through the power of shortwave, China airs its views to the world. But what are they, and who's listening? With a look at wartime broadcasting & how people can be influenced"},

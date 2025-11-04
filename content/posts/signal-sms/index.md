@@ -4,6 +4,9 @@ date = 2023-03-22T19:44:00Z
 updated = 2023-03-22T21:37:00Z
 authors = ["Jordan Glass"]
 
+[taxonomies]
+tags=["Technology"]
+
 [extra]
 meta = [
     {property = "og:description", content = "Signal is removing SMS support from its Android app. I think that's a step backwards"},

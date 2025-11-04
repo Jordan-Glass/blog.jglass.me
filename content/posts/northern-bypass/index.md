@@ -3,6 +3,9 @@ title = "Does Ipswich Need A Northern Bypass? A Driver's Perspective"
 date = 2025-10-12T15:34:00+01:00
 authors = ["Jordan Glass"]
 
+[taxonomies]
+tags=["Urban Design"]
+
 [extra]
 meta = [
     {property = "og:description", content = "Ipswich is completely reliant on one road, but is the frontrunning solution - a new one, possibly costing billions - really the best fix?"},

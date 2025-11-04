@@ -3,6 +3,9 @@ title = "Implementing NoML in Zola (And Why You Might Want To)"
 date = 2023-11-28T11:25:00Z
 authors = ["Jordan Glass"]
 
+[taxonomies]
+tags=["Devlog"]
+
 [extra]
 meta = [
     {property = "og:description", content = "AI companies are training their models with your work. Should you stop them?"},

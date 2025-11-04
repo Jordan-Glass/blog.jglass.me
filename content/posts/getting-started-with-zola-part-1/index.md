@@ -3,6 +3,9 @@ title = "Getting Started with Zola: How I Made This Blog"
 date = 2023-01-28T12:11:00Z
 authors = ["Jordan Glass"]
 
+[taxonomies]
+tags=["Devlog"]
+
 [extra]
 meta = [
     {property = "og:description", content = "I made this blog without writing a single piece of HTML. Here's how"},

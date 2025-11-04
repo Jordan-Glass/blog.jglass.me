@@ -3,6 +3,9 @@ title = "Implementing Media Previews with Open Graph Tags in Zola"
 date = 2024-01-26T14:31:00Z
 authors = ["Jordan Glass"]
 
+[taxonomies]
+tags=["Devlog"]
+
 [extra]
 meta = [
     {property = "og:description", content = "Open Graph allows for rich media previews with images and text - like this one! Here's how I added it to my Zola site."},
