@@ -14,7 +14,6 @@ meta = [
     {property = "og:image:alt", content = "Slightly blurry image. Centre and centre-left, a concrete bridge with multiple spans supported by concrete pillars. Atop the bridge is two two-lane carriageways surfaced in grey asphalt, with light traffic, mostly cars and vans. Above, white and grey clouds with dark grey underneath. The road descends and curves to come in front of the bridge in the foreground, where it's bordered by green trees."},
     {property = "og:type", content = "article"},
     {property = "og:locale", content = "en_GB"},
-    {property = "fediverse:creator", content = "@JordanGlass@fosstodon.org"},
 ]
 +++
 

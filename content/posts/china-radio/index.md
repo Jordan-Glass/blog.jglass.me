@@ -14,7 +14,6 @@ meta = [
     {property = "og:image:alt", content = "A black TECSUN shortwave radio set on a red background. Some of the number keys are slightly worn. It is tuned to 7285 kHz and has a signal strength of 54 dBu and a signal to noise ratio of 20dB. The backlight is not activated."},
     {property = "og:type", content = "article"},
     {property = "og:locale", content = "en_GB"},
-    {property = "fediverse:creator", content = "@JordanGlass@fosstodon.org"},
 ]
 +++
 
