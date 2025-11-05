@@ -1,8 +1,9 @@
 +++
 title = "Personal Blog"
-description = "This blog is made using Zola, a Static Site Generator (SSG). You can view it, and any modifications I've made to the theme, on GitHub."
+description = "The public repository for this blog, which contains the configuration and Markdown files it's generated from."
 weight = 0
 
 [extra]
+local_image = "blog.png"
 link_to = "https://github.com/Jordan-Glass/blog.jglass.me"
 +++
