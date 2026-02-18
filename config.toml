@@ -59,6 +59,7 @@ file_content_base_url = "https://github.com/Jordan-Glass/blog.jglass.me/tree/mai
 content_license = "CC BY-NC-SA 4.0"
 content_license_url = "https://github.com/Jordan-Glass/blog.jglass.me/blob/main/LICENSE_CC-BY-NC-SA-4.txt"
 license_explainer = "/about#licensing"
+dont_show_authors = ["About", "Contact","Privacy Information"]
 
 # External links
 fediverse = true    # author attribution
