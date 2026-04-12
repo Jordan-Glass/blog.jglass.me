@@ -44,7 +44,7 @@ Since I first created this blog in January 2022, the Apollo theme has received a
 
 It does this by looping through the list of tags you defined and, for each one, adding a `<meta>` tag with your `key` and `value` in place of the placeholders `{{ key }}` and `{{ value }}`. If you defined a title or description, it sets a variable accordingly, and won't add another automatically.
 
-```tera
+```
 {% if page.extra.meta %}
      <!-- the meta data config goes here  -->
      {% for data in page.extra.meta %}
