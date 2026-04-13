@@ -1,7 +1,7 @@
 +++
 title = "About"
 path = "about"
-updated = 2025-10-12T15:30:00+01:00
+updated = 2026-04-13T10:22:00+01:00
 
 [extra]
 meta = [
@@ -17,7 +17,7 @@ meta = [
 
 **I'm Jordan Glass** (he/him), **and I graduated from the [University of Suffolk](https://uos.ac.uk) in 2023 with a First Class BSc (Hons) degree in [Cyber Security](https://web.archive.org/web/20200809084516/https://www.uos.ac.uk/courses/ug/bsc-hons-cyber-security).**
 
-I now volunteer at Suffolk Archives and the NHS. I'm also revisiting core Cyber concepts to keep my knowledge fresh. I'm looking for work within IT, whether it's a regular role, graduate scheme, or apprenticeship - please [reach out](/contact) if you're interested.
+I now volunteer at Suffolk Archives and the NHS. I also revisited core Cyber concepts last year to keep my knowledge fresh. I'm looking for work within IT, whether it's a regular role, graduate scheme, or apprenticeship - please [reach out](/contact) if you're interested.
 
 ## University
 
@@ -39,13 +39,15 @@ My Dissertation project explored Open-Source Intelligence (OSINT), introducing t
 
 **In Cyber Security**, I'm interested in the motives of threat actors, state-backed groups, and ways security can be integrated with a low impact.
 
-## Now & Looking Ahead
+## What I'm Doing
 
-**I'm currently** revisiting core Cyber concepts, building a knowledge base with [QOwnNotes](https://www.qownnotes.org/) and [Obsidian](https://obsidian.md/). I volunteer at [Suffolk Archives](https://www.suffolkarchives.co.uk/), transcribing recordings of interviews to make the archive more accessible. I also volunteer at my local NHS foundation trust, [ESNEFT](https://www.esneft.nhs.uk/), reviewing leaflets to ensure patients can understand them.
+**Last year**, I revisited core Cyber concepts, building a knowledge base with [QOwnNotes](https://www.qownnotes.org/) and [Obsidian](https://obsidian.md/) and a [Cyber Security certificate](https://www.coursera.org/account/accomplishments/professional-cert/N88HYGYP0RM0).
+
+**Now**, I volunteer at [Suffolk Archives](https://www.suffolkarchives.co.uk/), transcribing recordings of interviews to make the archive more accessible, and at my local [NHS Trust](https://www.esneft.nhs.uk/), reviewing leaflets to ensure patients can understand them.
 
 **Looking ahead, I'm looking for work with opportunities to learn hands-on skills**. I consider myself to be committed, empathic, punctual and methodical. Written communication and attention to detail are two of my strengths.
 
-Being early in my career, I'm currently looking into apprenticeships and trainee roles - but please still reach out if you're interested and based near Ipswich (or offering a remote role).
+I'm looking into early career opportunities like apprenticeships and trainee roles, but please still reach out if you're interested and based near Ipswich (or offering a remote role).
 
 ## Contact
 
