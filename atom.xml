@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Jordan Glass</title>
+    <subtitle>Thoughts on Technology &amp; Urban Design</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://blog.jglass.me/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://blog.jglass.me"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-04-13T11:06:30+01:00</updated>
+    <id>https://blog.jglass.me/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Shuttle: A New Look For My Blog</title>
+        <published>2026-04-13T11:06:30+01:00</published>
+        <updated>2026-04-13T11:06:30+01:00</updated>
+        
+        <author>
+          <name>
+            Jordan Glass
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://blog.jglass.me/posts/shuttle-a-new-look/"/>
+        <id>https://blog.jglass.me/posts/shuttle-a-new-look/</id>
+        
+        <summary type="html">&lt;p&gt;Back when I started this blog, I simply wanted an outlet to prove that I could get to grips with the type of work I&#x27;d be doing in the IT sector. Being in my last year at University, the idea was that an online presence would help land me a job.&lt;&#x2F;p&gt;
+&lt;p&gt;Three years on, it hasn&#x27;t. This technique might, in another time, have worked among the global corporations or start-ups of Silicon Valley or London, but the job market here and now is different - and demands worked experience above almost all else.&lt;&#x2F;p&gt;
+&lt;p&gt;It has, however, served as an outlet to discuss a variety of topics from &lt;a href=&quot;&#x2F;posts&#x2F;signal-sms&#x2F;&quot;&gt;messaging apps&lt;&#x2F;a&gt; to &lt;a href=&quot;&#x2F;posts&#x2F;china-radio&quot;&gt;propaganda&lt;&#x2F;a&gt; and &lt;a href=&quot;&#x2F;posts&#x2F;northern-bypass&quot;&gt;bridges&lt;&#x2F;a&gt;. But while my writing has advanced in this time, the look of the blog it appeared on had not. After seeing some inspiration, I decided it was time to change that.&amp;hellip;
+&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Does Ipswich Need A Northern Bypass? A Driver&#x27;s Perspective</title>
+        <published>2025-10-12T15:34:00+01:00</published>
+        <updated>2025-10-12T15:34:00+01:00</updated>
+        
+        <author>
+          <name>
+            Jordan Glass
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://blog.jglass.me/posts/northern-bypass/"/>
+        <id>https://blog.jglass.me/posts/northern-bypass/</id>
+        
+        <summary type="html">&lt;p&gt;Ipswich has a problem. It&#x27;s a town of &lt;a href=&quot;https:&#x2F;&#x2F;www.ons.gov.uk&#x2F;visualisations&#x2F;censuspopulationchange&#x2F;E07000202&#x2F;&quot;&gt;140,000 people&lt;&#x2F;a&gt; entirely reliant on one road, the A14, to move traffic around the town. This includes lorries destined for the Port of Felixstowe, the UK&#x27;s &lt;a href=&quot;https:&#x2F;&#x2F;maps.dft.gov.uk&#x2F;maritime-statistics&#x2F;index.html&quot;&gt;busiest port&lt;&#x2F;a&gt; (*1).&lt;&#x2F;p&gt;
+&lt;p&gt;Today, these HGVs go &lt;em&gt;around&lt;&#x2F;em&gt; Ipswich - but before the A14 &lt;a href=&quot;https:&#x2F;&#x2F;www.flickr.com&#x2F;photos&#x2F;ipsoc&#x2F;albums&#x2F;72157675631836065&#x2F;with&#x2F;10135078536&quot;&gt;bypassed&lt;&#x2F;a&gt; &lt;a href=&quot;https:&#x2F;&#x2F;www.bbc.co.uk&#x2F;news&#x2F;av&#x2F;uk-england-suffolk-50180198&quot;&gt;it&lt;&#x2F;a&gt; in the eighties, &lt;a href=&quot;https:&#x2F;&#x2F;maps.nls.uk&#x2F;geo&#x2F;explore&#x2F;side-by-side&#x2F;#zoom=12.6&amp;amp;lat=52.05455&amp;amp;lon=1.18879&amp;amp;layers=271&amp;amp;right=osm&quot;&gt;the only way was straight through&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Perhaps this road&#x27;s most defining feature, the Orwell Bridge, is also its most fallible. Its closure &lt;a href=&quot;https:&#x2F;&#x2F;www.gazette-news.co.uk&#x2F;news&#x2F;24990582.overnight-closures-set-a14-orwell-bridge-near-ipswich&#x2F;#:~:text=The%20following%20diversion%20route,A14%20at%20junction%2055&quot;&gt;sends all this traffic through Ipswich once again&lt;&#x2F;a&gt; - but &lt;a href=&quot;https:&#x2F;&#x2F;www.bbc.co.uk&#x2F;news&#x2F;uk-42182497&quot;&gt;today&lt;&#x2F;a&gt;, car ownership and usage are higher than ever.&lt;&#x2F;p&gt;
+&lt;p&gt;The result: the town grinds to a halt as streets designed for local traffic are lumbered with arterial traffic too. So, what can we do?&amp;hellip;
+&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The Chinese Radio Station You Can Hear Around The World</title>
+        <published>2024-08-29T20:38:00+00:00</published>
+        <updated>2024-08-29T20:38:00+00:00</updated>
+        
+        <author>
+          <name>
+            Jordan Glass
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://blog.jglass.me/posts/china-radio/"/>
+        <id>https://blog.jglass.me/posts/china-radio/</id>
+        
+        <summary type="html">&lt;p&gt;Governments have long used radio to change minds beyond their borders. Take World War II, when Germany made broadcasts to Britain: William Joyce - nicknamed Lord Haw-Haw by the listening public - provided the German account of news, &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=3-naCd-DwvU&quot;&gt;&#x27;predicting&#x27; which towns would be the target of an air raid that night&lt;&#x2F;a&gt;. Joyce was not German but, as a former member of the British Union of Fascists, he sympathised with them, &lt;a href=&quot;https:&#x2F;&#x2F;www.iwm.org.uk&#x2F;history&#x2F;the-rise-and-fall-of-lord-haw-haw-during-the-second-world-war&quot;&gt;leaving London for Berlin&lt;&#x2F;a&gt; a week before war in 1939. He was on the air there within weeks.&lt;&#x2F;p&gt;
+&lt;p&gt;It was all guesswork and propaganda, but the programmes resonated with the British public, exploiting a desire for information from the frontlines. Many listened - almost as many as listened to the BBC News. Some believed him, and found him endearing. Many wanted another perspective of wartime engagements, while others saw it as light entertainment - a welcome alternative to the dull and serious programmes broadcast domestically. Joyce&#x27;s familiar accent must have helped here, even if he sounded condescending to some, getting German narratives into homes that would have switched off a German voice.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Implementing Media Previews with Open Graph Tags in Zola</title>
+        <published>2024-01-26T14:31:00+00:00</published>
+        <updated>2024-01-26T14:31:00+00:00</updated>
+        
+        <author>
+          <name>
+            Jordan Glass
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://blog.jglass.me/posts/implementing-ogp/"/>
+        <id>https://blog.jglass.me/posts/implementing-ogp/</id>
+        
+        <summary type="html">&lt;p&gt;The &lt;a href=&quot;https:&#x2F;&#x2F;ogp.me&#x2F;&quot;&gt;Open Graph Protocol&lt;&#x2F;a&gt;, or OGP, is a series of &lt;code&gt;&amp;lt;meta&amp;gt;&lt;&#x2F;code&gt; tags designed to provide metadata about content hosted online, including articles, photos, and videos. It&#x27;s created by Facebook, which would normally be a big red flag for me - but since it&#x27;s an open standard, other sites have embraced it too, including Microsoft&#x27;s LinkedIn and the decentralised Mastodon.&lt;&#x2F;p&gt;
+&lt;p&gt;Platforms use OGP data to display rich information alongside webpages their users link to, including photos, bespoke headlines that differ from the page&#x27;s actual title, and descriptions to elaborate on both of them.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Implementing NoML in Zola (And Why You Might Want To)</title>
+        <published>2023-11-28T11:25:00+00:00</published>
+        <updated>2023-11-28T11:25:00+00:00</updated>
+        
+        <author>
+          <name>
+            Jordan Glass
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://blog.jglass.me/posts/implementing-noml/"/>
+        <id>https://blog.jglass.me/posts/implementing-noml/</id>
+        
+        <summary type="html">&lt;p&gt;AI is big business, and it&#x27;s largely fuelled by the vast troves of data on the Internet. Much of it was published in an era when harvesting authors&#x27; work to train models that may eventually supercede them, if not unimaginable, certainly seemed like a distant future. &lt;strong&gt;That future has now arrived.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Recently, I came across &lt;a href=&quot;https:&#x2F;&#x2F;blog.mojeek.com&#x2F;2023&#x2F;10&#x2F;noml-proposal-and-open-letter.html&quot;&gt;a proposal&lt;&#x2F;a&gt; by the independent search company Mojeek for new ways for website owners to control how AI companies crawl data to train their models with. It&#x27;s not of much use to me - all my posts are available on GitHub, free of any restrictions I place on them here - but I was intrigued to explore how I could implement it given I don&#x27;t write any of the HTML for this site myself.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>My Thoughts on Signal Removing SMS Support</title>
+        <published>2023-03-22T19:44:00+00:00</published>
+        <updated>2023-03-22T21:37:00+00:00</updated>
+        
+        <author>
+          <name>
+            Jordan Glass
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://blog.jglass.me/posts/signal-sms/"/>
+        <id>https://blog.jglass.me/posts/signal-sms/</id>
+        
+        <summary type="html">&lt;p&gt;Over the next few days, Signal will stop supporting SMS messages on Android. After almost ten years, Signal&#x27;s greatest asset for introducing the masses to secure messaging will be removed. In this post, I&#x27;ll discuss why I think SMS support was so important, and why I think removing it is the wrong decision.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Getting Started with Zola: How I Made This Blog</title>
+        <published>2023-01-28T12:11:00+00:00</published>
+        <updated>2023-01-28T12:11:00+00:00</updated>
+        
+        <author>
+          <name>
+            Jordan Glass
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://blog.jglass.me/posts/getting-started-with-zola-part-1/"/>
+        <id>https://blog.jglass.me/posts/getting-started-with-zola-part-1/</id>
+        
+        <summary type="html">&lt;p&gt;Zola is a Static Site Generator (SSG) that converts text you write in Markdown documents into a website that can be served on the Internet. Being a static site, it&#x27;s simple and doesn&#x27;t require a database behind it to serve files from - and, in using Markdown, text is formatted in the same way as note-taking apps such as Notion and Obsidian, meaning you don&#x27;t need to learn HTML syntax to start writing.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;In theory&lt;&#x2F;em&gt; that&#x27;s simple, but figuring out how to make Zola build a nice-looking, themed site from those Markdown files takes a little more understanding. You might also want to use Git to track the changes you make, and publish the site automatically using a platform like GitHub or Cloudflare Pages.&lt;&#x2F;p&gt;
+&lt;p&gt;In this post I&#x27;ll share how I made this blog, from installing Zola, to adding a theme, and building a site you can see in your browser - as well as learning the basics of Git in the process.&lt;&#x2F;p&gt;</summary>
+        
+    </entry>
+</feed>

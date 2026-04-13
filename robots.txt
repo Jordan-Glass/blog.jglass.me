@@ -1,0 +1,9 @@
+User-agent: *
+Disallow:
+Allow: /
+
+User-agent: gptbot
+Disallow: /
+Allow: 
+
+Sitemap: https://blog.jglass.me/sitemap.xml
